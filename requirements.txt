@@ -1,3 +1,3 @@
-flask
-redis
-pyjwt
+flask==2.2.5
+redis==4.5.5
+pyjwt==2.6.0

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth con Redis Stack</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <input type="text" id="user_id" placeholder="Tu nombre de usuario">
+  <button onclick="login()">Iniciar sesión</button>
+
+  <h2>Zona Protegida</h2>
+  <button onclick="getProtected()">Acceder</button>
+  <button onclick="logout()">Cerrar sesión</button>
+
+  <pre id="output"></pre>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
